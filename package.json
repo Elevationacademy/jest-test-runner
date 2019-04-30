@@ -1,0 +1,16 @@
+{
+	"name": "jest-test-runner",
+	"version": "1.0.0",
+	"description": "An interactive script to run jest tests.",
+	"repository": "Elevationacademy/jest-test-runner",
+	"bin": {},
+	"engines": {
+		"node": ">=8"
+	},
+	"files": [],
+	"devDependencies": {
+		"husky": "^2.1.0",
+		"lint-staged": "^8.1.5",
+		"prettier": "^1.17.0"
+	}
+}
