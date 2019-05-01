@@ -3,14 +3,21 @@
 	"version": "1.0.0",
 	"description": "An interactive script to run jest tests.",
 	"repository": "Elevationacademy/jest-test-runner",
-	"bin": {},
+	"bin": {
+		"tests": "./index.js"
+	},
 	"engines": {
 		"node": ">=8"
 	},
-	"files": [],
 	"devDependencies": {
 		"husky": "^2.1.0",
 		"lint-staged": "^8.1.5",
 		"prettier": "^1.17.0"
+	},
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"inquirer": "^6.3.1",
+		"inquirer-autocomplete-prompt": "^1.0.1",
+		"readdirp": "^3.0.1"
 	}
 }
