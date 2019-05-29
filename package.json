@@ -4,7 +4,8 @@
 	"description": "An interactive script to run jest tests.",
 	"repository": "Elevationacademy/jest-test-runner",
 	"bin": {
-		"tests": "./index.js"
+		"tests": "./index.js",
+		"update": "./index.js"
 	},
 	"engines": {
 		"node": ">=8"
