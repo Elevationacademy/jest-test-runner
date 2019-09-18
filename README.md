@@ -7,6 +7,11 @@
    ```bash
    npm run update -- -m "commit message"
    ```
+1. In the lesson repository, add the following to the scripts:
+   ```bash
+   "tests": "tests",
+   "update": "update"
+   ```
 
 ## Running tests in band
 
@@ -14,4 +19,3 @@ In order to run tests in band (One by one), change the scripts to:
 
 1. `"test-silent": "jest --runInBand || exit 0"`
 1. `"tests": "tests --runInBand"`
-
