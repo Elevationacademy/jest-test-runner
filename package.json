@@ -7,6 +7,10 @@
 		"tests": "./index.js",
 		"update": "./index.js"
 	},
+	"files": [
+		"index.js",
+		"lib"
+	],
 	"engines": {
 		"node": ">=8"
 	},
