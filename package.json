@@ -26,6 +26,6 @@
 		"inquirer": "^6.3.1",
 		"inquirer-autocomplete-prompt": "^1.0.1",
 		"readdirp": "^3.0.1",
-		"simple-git": "^1.113.0"
+		"simple-git": "^3.15.0"
 	}
 }
